@@ -41,14 +41,14 @@
 //   a(b);
   //****************************** */
     // This example show how to add argument and callback to a function
-  function StartEngine(engine, callback) {
-    setTimeout( function(){
-      console.log(`Starting the ${engine} now.`);
-      callback();
-    }, 2000);}
+  // function StartEngine(engine, callback) {
+  //   setTimeout( function(){
+  //     console.log(`Starting the ${engine} now.`);
+  //     callback();
+  //   }, 2000);}
     
-  function setGear(){
-    setTimeout( function(){
-    console.log('go to first gear');
-  },1000 );}
-  StartEngine('BMW', setGear);
+  // function setGear(){
+  //   setTimeout( function(){
+  //   console.log('go to first gear');
+  // },1000 );}
+  // StartEngine('BMW', setGear);
